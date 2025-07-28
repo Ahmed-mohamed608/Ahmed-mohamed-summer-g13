@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>task form</title>
+</head>
+<body >
+
+  <form>
+    <table border="1" >
+      <tr style="background-color: yellow;">
+        <th colspan="2"> Registration Form</th>
+      </tr>
+      <tr style="background-color: aqua;">
+        <td>Enter Name</td>
+        <td><input type="text" name="name" maxlength="8" minlength="3"></td>
+      </tr>
+      <tr style="background-color: aqua;">
+        <td>Enter Password</td>
+        <td><input type="password" name="password"></td>
+      </tr>
+      <tr style="background-color: aqua;">
+        <td>Enter Address</td>
+        <td><textarea name="address" ></textarea></td>
+      </tr>
+      <tr style="background-color: aqua;">
+        <td>Select Game</td>
+        <td>
+          <input type="checkbox" name="game"> Hockey<br>
+          <input type="checkbox" name="game"> Football<br>
+          <input type="checkbox" name="game"> Badminton<br>
+          <input type="checkbox" name="game"> Cricket<br>
+          <input type="checkbox" name="game"> volleyball
+        </td>
+      </tr>
+      <tr style="background-color: aqua;">
+        <td>Gender</td>
+        <td>
+          <input type="radio" name="gender"> Male
+          <input type="radio" name="gender"> Female
+        </td>
+      </tr>
+      <tr style="background-color: aqua;">
+        <td>Select ur age</td>
+        <td>
+          <select>
+            <option selected disabled>Select</option>
+            <option>10-20</option>
+            <option>20-30</option>
+            <option>30-40</option>
+          </select>
+        </td>
+      </tr>
+      <tr style="background-color: aqua;">
+        <td>Select Photo</td>
+        <td><input type="file" accept=".jpg"></td>
+      </tr>
+      <tr style="background-color: aqua;">
+        <td colspan="2" align="center">
+          <button>clik me</button>
+          <input type="reset" value="Reset">
+          <input type="submit" value="Submit Form">
+        </td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+</html>
