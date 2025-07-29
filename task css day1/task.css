@@ -2,14 +2,14 @@ body {
   background-color: violet;
 }
 
-.contact-section {
+.section {
   width: 60%;
   display: flex;
   margin: 50px auto;
   text-align: center;
 }
 
- .right-box {
+ .right {
   display: inline-block;
   width: 50%;
   padding: 20px;
@@ -17,8 +17,8 @@ body {
    text-align: center;
 }
 
-.left-box {
-  background: #00bcd4;
+.left {
+  background-color: rgb(0, 72, 255);
   color: white;
   text-align: center;
   display: inline-block;
@@ -29,7 +29,7 @@ body {
 
 
 
-.right-title {
+.title {
   font-weight: bold;
   font-size: 22px;
   margin-bottom: 20px;
@@ -38,7 +38,7 @@ body {
 
 
 
-.form-input{
+.input{
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
@@ -48,8 +48,8 @@ body {
 
 
 
-.form-button {
-  background: #00bcd4;
+.button {
+  background-color: rgba(127, 221, 255, 0.76);
   color: white;
   padding: 10px;
   text-align: center;
