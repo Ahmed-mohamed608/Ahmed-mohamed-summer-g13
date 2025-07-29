@@ -6,7 +6,6 @@ body {
   width: 60%;
   display: flex;
   margin: 50px auto;
-  background: white;
   text-align: center;
 }
 
@@ -15,7 +14,6 @@ body {
   width: 50%;
   padding: 20px;
   background-color: white;
-   vertical-align: top;
    text-align: center;
 }
 
@@ -26,8 +24,7 @@ body {
   display: inline-block;
   width: 50%;
   padding: 20px;
-   vertical-align: top;
-   text-align: center;
+  
 }
 
 
