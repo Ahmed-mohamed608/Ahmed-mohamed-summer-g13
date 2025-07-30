@@ -1,0 +1,117 @@
+
+body {
+  background-image: url('image1.jpg');
+  background-size: 100% 100%;
+  height: 100vh; 
+  
+  margin: 0;
+  
+}
+
+.navbar {
+ 
+  background-color: black;
+      padding: 20px 60px;
+      overflow: hidden;
+}
+.logo{
+  float: left;
+  font-size: 20px;
+}
+
+
+.white {
+  color: white;
+  font-weight: bold;
+
+}
+
+.orange {
+  color: orange;
+  font-weight: lighter;
+}
+.links{
+  float: right;
+}
+
+.links span {
+  color: white;
+  margin-left: 30px;
+
+}
+.main{
+   width: 80%;
+      padding: 80px 60px;
+      overflow: hidden;
+      height: 60%;
+
+}
+.left{
+   width: 50%;
+      float: left;
+      color: white;
+}
+.h1{
+   margin-bottom: 20px;
+   font-size: 48px;
+}
+.h2{
+  margin-bottom: 20px;
+  font-size: 36px;
+
+}
+
+.white-line {
+  width: 60px;    
+  height: 3px;      
+  background-color: white;
+  margin: 20px 0;  
+  border-radius: 10%;
+}
+.paragraph{
+  margin-bottom: 30px;
+      font-size: medium;
+}
+.download
+{
+  padding: 10px 25px;
+      background: transparent;
+      border: 2px solid white;
+      color: white
+}
+.right{
+  width: 35%;
+      float: right;
+      background: white;
+      box-sizing: border-box;
+}
+.h3{
+  margin-bottom: 20px;
+      font-size: 18px;
+      text-align: center;
+}
+.orange2{
+  color: orange;
+  font-size: 18px;
+}
+.input{
+  width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+}
+.started
+{
+  width: 100%;
+      background-color: orange;
+      color: white;
+       padding: 10px;
+       box-sizing: border-box;
+}
+
+
+
+
+
+
+
